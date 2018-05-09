@@ -1,6 +1,8 @@
 #pragma once
 
 #include"stdafx.h"
+#include "stack"
+#include <iostream>
 
 const int MAXN = 1010;
 const int MAXM = 1010;
@@ -56,3 +58,15 @@ n:未知数个数
 l,ans:储存解 ，l[]表示是否为自由元
 */
 inline int Gauss(double a[][MAXN], bool l[], double ans[]);
+
+template <typename T>
+void ShowStack(std::stack<T> stack)
+{
+	while(!stack.empty())
+	{
+		std::cout << stack.top() << std::endl;
+		stack.pop();
+	}
+	
+
+}
