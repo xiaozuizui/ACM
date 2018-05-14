@@ -13,6 +13,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "生成窗口最大值", "�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "构造数组的MaxTree", "构造数组的MaxTree\构造数组的MaxTree.vcxproj", "{F7C09219-A7A9-417E-B323-AD8DD2056D63}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二分图搜索", "二分图搜索\二分图搜索.vcxproj", "{CB455C99-9AB4-45D1-8FCF-348F42972578}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "图着色问题", "图着色问题\图着色问题.vcxproj", "{78E7C383-D771-4E3F-A897-8A7A842FC533}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +65,22 @@ Global
 		{F7C09219-A7A9-417E-B323-AD8DD2056D63}.Release|x64.Build.0 = Release|x64
 		{F7C09219-A7A9-417E-B323-AD8DD2056D63}.Release|x86.ActiveCfg = Release|Win32
 		{F7C09219-A7A9-417E-B323-AD8DD2056D63}.Release|x86.Build.0 = Release|Win32
+		{CB455C99-9AB4-45D1-8FCF-348F42972578}.Debug|x64.ActiveCfg = Debug|x64
+		{CB455C99-9AB4-45D1-8FCF-348F42972578}.Debug|x64.Build.0 = Debug|x64
+		{CB455C99-9AB4-45D1-8FCF-348F42972578}.Debug|x86.ActiveCfg = Debug|Win32
+		{CB455C99-9AB4-45D1-8FCF-348F42972578}.Debug|x86.Build.0 = Debug|Win32
+		{CB455C99-9AB4-45D1-8FCF-348F42972578}.Release|x64.ActiveCfg = Release|x64
+		{CB455C99-9AB4-45D1-8FCF-348F42972578}.Release|x64.Build.0 = Release|x64
+		{CB455C99-9AB4-45D1-8FCF-348F42972578}.Release|x86.ActiveCfg = Release|Win32
+		{CB455C99-9AB4-45D1-8FCF-348F42972578}.Release|x86.Build.0 = Release|Win32
+		{78E7C383-D771-4E3F-A897-8A7A842FC533}.Debug|x64.ActiveCfg = Debug|x64
+		{78E7C383-D771-4E3F-A897-8A7A842FC533}.Debug|x64.Build.0 = Debug|x64
+		{78E7C383-D771-4E3F-A897-8A7A842FC533}.Debug|x86.ActiveCfg = Debug|Win32
+		{78E7C383-D771-4E3F-A897-8A7A842FC533}.Debug|x86.Build.0 = Debug|Win32
+		{78E7C383-D771-4E3F-A897-8A7A842FC533}.Release|x64.ActiveCfg = Release|x64
+		{78E7C383-D771-4E3F-A897-8A7A842FC533}.Release|x64.Build.0 = Release|x64
+		{78E7C383-D771-4E3F-A897-8A7A842FC533}.Release|x86.ActiveCfg = Release|Win32
+		{78E7C383-D771-4E3F-A897-8A7A842FC533}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
